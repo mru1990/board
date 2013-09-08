@@ -17,6 +17,6 @@ class homeActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    $this->test = "Das ist bloß eine einfache Test-Ausgabe. Wenn du das lesen kannst, funktioniert es hervorragend!";
+    $this->forward('default', 'module');
   }
 }
