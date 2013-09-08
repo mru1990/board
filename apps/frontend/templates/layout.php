@@ -31,6 +31,12 @@
         <![endif]-->
     </head>
     <body>
+        <header>
+            <?php include_partial('global/header') ?>
+        </header>
         <?php echo $sf_content ?>
+        <footer>
+            
+        </footer>
     </body>
 </html>
