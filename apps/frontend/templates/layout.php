@@ -34,7 +34,11 @@
         <header>
             <?php include_partial('global/header') ?>
         </header>
-        <?php echo $sf_content ?>
+        
+        <div style="margin-top: 70px;" class="container">
+            <?php echo $sf_content ?>
+        </div>
+        
         <footer>
             
         </footer>

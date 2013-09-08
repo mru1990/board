@@ -1,0 +1,128 @@
+Sep 08 17:48:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Sep 08 17:48:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 08 17:48:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 08 17:48:45 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Sep 08 17:48:45 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/home/templates/indexSuccess.php"
+Sep 08 17:48:45 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 17:48:45 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 17:48:45 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 08 17:48:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 08 17:48:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 08 17:48:45 symfony [info] {sfWebDebugLogger} Configuration 55.82 ms (9)
+Sep 08 17:48:45 symfony [info] {sfWebDebugLogger} Factories 52.63 ms (1)
+Sep 08 17:48:45 symfony [info] {sfWebDebugLogger} Action "home/index" 0.19 ms (1)
+Sep 08 17:48:45 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 11.61 ms (1)
+Sep 08 17:48:45 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.46 ms (1)
+Sep 08 17:48:45 symfony [info] {sfWebResponse} Send content (32216 o)
+Sep 08 17:48:51 symfony [info] {sfPatternRouting} Match route "contact" (/contact) for /contact with parameters array (  'module' => 'contact',  'action' => 'index',)
+Sep 08 17:48:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 08 17:48:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 08 17:48:51 symfony [info] {contactActions} Call "contactActions->executeIndex()"
+Sep 08 17:48:51 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/contact/templates/indexSuccess.php"
+Sep 08 17:48:51 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 17:48:51 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 17:48:51 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 08 17:48:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 08 17:48:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 08 17:48:51 symfony [info] {sfWebDebugLogger} Configuration 12.05 ms (10)
+Sep 08 17:48:51 symfony [info] {sfWebDebugLogger} Factories 20.83 ms (1)
+Sep 08 17:48:51 symfony [info] {sfWebDebugLogger} Action "contact/index" 0.10 ms (1)
+Sep 08 17:48:51 symfony [info] {sfWebDebugLogger} View "Success" for "contact/index" 9.67 ms (1)
+Sep 08 17:48:51 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.53 ms (1)
+Sep 08 17:48:51 symfony [info] {sfWebResponse} Send content (32977 o)
+Sep 08 17:49:50 symfony [info] {sfPatternRouting} Match route "contact" (/contact) for /contact with parameters array (  'module' => 'contact',  'action' => 'index',)
+Sep 08 17:49:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 08 17:49:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 08 17:49:50 symfony [info] {contactActions} Call "contactActions->executeIndex()"
+Sep 08 17:49:50 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/contact/templates/indexSuccess.php"
+Sep 08 17:49:50 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 17:49:50 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 17:49:50 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 08 17:49:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 08 17:49:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 08 17:49:50 symfony [info] {sfWebDebugLogger} Configuration 1.10 ms (9)
+Sep 08 17:49:50 symfony [info] {sfWebDebugLogger} Factories 17.60 ms (1)
+Sep 08 17:49:50 symfony [info] {sfWebDebugLogger} Action "contact/index" 0.11 ms (1)
+Sep 08 17:49:50 symfony [info] {sfWebDebugLogger} View "Success" for "contact/index" 8.11 ms (1)
+Sep 08 17:49:50 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.45 ms (1)
+Sep 08 17:49:50 symfony [info] {sfWebResponse} Send content (32902 o)
+Sep 08 17:52:19 symfony [info] {sfPatternRouting} Match route "contact" (/contact) for /contact with parameters array (  'module' => 'contact',  'action' => 'index',)
+Sep 08 17:52:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 08 17:52:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 08 17:52:19 symfony [info] {contactActions} Call "contactActions->executeIndex()"
+Sep 08 17:52:19 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/contact/templates/indexSuccess.php"
+Sep 08 17:52:19 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 17:52:19 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 17:52:19 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 08 17:52:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 08 17:52:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 08 17:52:19 symfony [info] {sfWebDebugLogger} Configuration 0.84 ms (9)
+Sep 08 17:52:19 symfony [info] {sfWebDebugLogger} Factories 21.69 ms (1)
+Sep 08 17:52:19 symfony [info] {sfWebDebugLogger} Action "contact/index" 0.09 ms (1)
+Sep 08 17:52:19 symfony [info] {sfWebDebugLogger} View "Success" for "contact/index" 6.35 ms (1)
+Sep 08 17:52:19 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.43 ms (1)
+Sep 08 17:52:19 symfony [info] {sfWebResponse} Send content (32934 o)
+Sep 08 18:02:25 symfony [info] {sfPatternRouting} Match route "contact" (/contact) for /contact with parameters array (  'module' => 'contact',  'action' => 'index',)
+Sep 08 18:02:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 08 18:02:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 08 18:02:25 symfony [info] {contactActions} Call "contactActions->executeIndex()"
+Sep 08 18:02:25 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/contact/templates/indexSuccess.php"
+Sep 08 18:02:25 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 18:02:25 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 18:02:25 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 08 18:02:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 08 18:02:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 08 18:02:25 symfony [info] {sfWebDebugLogger} Configuration 0.82 ms (9)
+Sep 08 18:02:25 symfony [info] {sfWebDebugLogger} Factories 19.19 ms (1)
+Sep 08 18:02:25 symfony [info] {sfWebDebugLogger} Action "contact/index" 0.10 ms (1)
+Sep 08 18:02:25 symfony [info] {sfWebDebugLogger} View "Success" for "contact/index" 7.21 ms (1)
+Sep 08 18:02:25 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.67 ms (1)
+Sep 08 18:02:25 symfony [info] {sfWebResponse} Send content (32946 o)
+Sep 08 18:04:57 symfony [info] {sfPatternRouting} Match route "contact" (/contact) for /contact with parameters array (  'module' => 'contact',  'action' => 'index',)
+Sep 08 18:04:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 08 18:04:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 08 18:04:57 symfony [info] {contactActions} Call "contactActions->executeIndex()"
+Sep 08 18:04:57 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/contact/templates/indexSuccess.php"
+Sep 08 18:04:57 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 18:04:57 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 18:04:57 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 08 18:04:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 08 18:04:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 08 18:04:57 symfony [info] {sfWebDebugLogger} Configuration 0.85 ms (9)
+Sep 08 18:04:57 symfony [info] {sfWebDebugLogger} Factories 17.33 ms (1)
+Sep 08 18:04:57 symfony [info] {sfWebDebugLogger} Action "contact/index" 0.09 ms (1)
+Sep 08 18:04:57 symfony [info] {sfWebDebugLogger} View "Success" for "contact/index" 5.82 ms (1)
+Sep 08 18:04:57 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.43 ms (1)
+Sep 08 18:04:57 symfony [info] {sfWebResponse} Send content (32890 o)
+Sep 08 18:04:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Sep 08 18:04:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 08 18:04:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 08 18:04:58 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Sep 08 18:04:58 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/home/templates/indexSuccess.php"
+Sep 08 18:04:58 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 18:04:58 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 18:04:58 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 08 18:04:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 08 18:04:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 08 18:04:58 symfony [info] {sfWebDebugLogger} Configuration 0.92 ms (9)
+Sep 08 18:04:58 symfony [info] {sfWebDebugLogger} Factories 20.11 ms (1)
+Sep 08 18:04:58 symfony [info] {sfWebDebugLogger} Action "home/index" 0.11 ms (1)
+Sep 08 18:04:58 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 6.89 ms (1)
+Sep 08 18:04:58 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.44 ms (1)
+Sep 08 18:04:58 symfony [info] {sfWebResponse} Send content (32359 o)
+Sep 08 18:05:02 symfony [info] {sfPatternRouting} Match route "contact" (/contact) for /contact with parameters array (  'module' => 'contact',  'action' => 'index',)
+Sep 08 18:05:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 08 18:05:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 08 18:05:02 symfony [info] {contactActions} Call "contactActions->executeIndex()"
+Sep 08 18:05:02 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/contact/templates/indexSuccess.php"
+Sep 08 18:05:02 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 18:05:02 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 08 18:05:02 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 08 18:05:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 08 18:05:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 08 18:05:02 symfony [info] {sfWebDebugLogger} Configuration 0.78 ms (9)
+Sep 08 18:05:02 symfony [info] {sfWebDebugLogger} Factories 20.78 ms (1)
+Sep 08 18:05:02 symfony [info] {sfWebDebugLogger} Action "contact/index" 0.09 ms (1)
+Sep 08 18:05:02 symfony [info] {sfWebDebugLogger} View "Success" for "contact/index" 5.93 ms (1)
+Sep 08 18:05:02 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.41 ms (1)
+Sep 08 18:05:02 symfony [info] {sfWebResponse} Send content (32931 o)
