@@ -32,9 +32,11 @@
     </head>
     <body>
         <div class="container">
+<header>
             <?php include_partial('global/header') ?>
+</header>
             <?php echo $sf_content ?>
-            <?php include_partial('global/footer') ?>
+           <footer> <?php include_partial('global/footer') ?> </footer>
         </div>
     </body>
 </html>
