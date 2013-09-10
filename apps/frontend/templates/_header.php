@@ -6,14 +6,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="#" name="top">Brand Name</a>
+            <a class="brand" href="<?php echo url_for('homepage')?>" name="top">Brand Name</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li><a href="#"><i class="icon-home"></i> Home</a></li>
+                    <li><a href="<?php echo url_for('homepage')?>"><i class="icon-home"></i> Home</a></li>
                     <li class="divider-vertical"></li>
                     <li class="active"><a href="#"><i class="icon-file"></i> Pages</a></li>
                     <li class="divider-vertical"></li>
-                    <li><a href="#"><i class="icon-envelope"></i> Messages</a></li>
+                    <li><a href="<?php echo url_for('customer')?>"><i class="icon-envelope"></i> Customers</a></li>
                     <li class="divider-vertical"></li>
                     <li><a href="#"><i class="icon-signal"></i> Stats</a></li>
                     <li class="divider-vertical"></li>
@@ -34,9 +34,6 @@
                                 <input style="float: left; margin-right: 10px;" type="checkbox" name="remember-me" id="remember-me" value="1">
                                 <label class="string optional" for="user_remember_me"> Remember me</label>
                                 <input class="btn btn-primary btn-block" type="submit" id="sign-in" value="Sign In">
-                                <label style="text-align:center;margin-top:5px">or</label>
-                                <input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Sign In with Google">
-                                <input class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Sign In with Twitter">
                             </form>
                         </div>
                     </li>

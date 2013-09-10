@@ -672,3 +672,175 @@ Sep 08 20:14:04 symfony [info] {sfWebDebugLogger} Action "contact/index" 0.10 ms
 Sep 08 20:14:04 symfony [info] {sfWebDebugLogger} View "Success" for "contact/index" 14.81 ms (1)
 Sep 08 20:14:04 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.72 ms (1)
 Sep 08 20:14:04 symfony [info] {sfWebResponse} Send content (34613 o)
+Sep 10 20:19:03 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Sep 10 20:19:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 10 20:19:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 10 20:19:03 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Sep 10 20:19:03 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/home/templates/indexSuccess.php"
+Sep 10 20:19:03 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:19:03 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:19:03 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 10 20:19:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 10 20:19:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 10 20:19:03 symfony [info] {sfWebDebugLogger} Configuration 1.24 ms (9)
+Sep 10 20:19:03 symfony [info] {sfWebDebugLogger} Factories 33.98 ms (1)
+Sep 10 20:19:03 symfony [info] {sfWebDebugLogger} Action "home/index" 0.10 ms (1)
+Sep 10 20:19:03 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 9.39 ms (1)
+Sep 10 20:19:03 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.48 ms (1)
+Sep 10 20:19:03 symfony [info] {sfWebResponse} Send content (33950 o)
+Sep 10 20:32:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Sep 10 20:32:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 10 20:32:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 10 20:32:59 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Sep 10 20:32:59 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/home/templates/indexSuccess.php"
+Sep 10 20:32:59 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:32:59 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:32:59 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 10 20:32:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 10 20:32:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 10 20:32:59 symfony [info] {sfWebDebugLogger} Configuration 0.94 ms (9)
+Sep 10 20:32:59 symfony [info] {sfWebDebugLogger} Factories 18.95 ms (1)
+Sep 10 20:32:59 symfony [info] {sfWebDebugLogger} Action "home/index" 0.09 ms (1)
+Sep 10 20:32:59 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 7.27 ms (1)
+Sep 10 20:32:59 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.82 ms (1)
+Sep 10 20:32:59 symfony [info] {sfWebResponse} Send content (33671 o)
+Sep 10 20:36:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Sep 10 20:36:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 10 20:36:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 10 20:36:34 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Sep 10 20:36:34 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/home/templates/indexSuccess.php"
+Sep 10 20:36:34 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:36:34 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:36:34 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 10 20:36:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 10 20:36:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 10 20:36:34 symfony [info] {sfWebDebugLogger} Configuration 27.23 ms (10)
+Sep 10 20:36:34 symfony [info] {sfWebDebugLogger} Factories 47.69 ms (1)
+Sep 10 20:36:34 symfony [info] {sfWebDebugLogger} Action "home/index" 0.12 ms (1)
+Sep 10 20:36:34 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 7.26 ms (1)
+Sep 10 20:36:34 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.69 ms (1)
+Sep 10 20:36:34 symfony [info] {sfWebResponse} Send content (33709 o)
+Sep 10 20:36:36 symfony [info] {sfPatternRouting} Match route "customer" (/customer) for /customer with parameters array (  'module' => 'customer',  'action' => 'index',)
+Sep 10 20:36:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 10 20:36:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 10 20:36:36 symfony [info] {customerActions} Call "customerActions->executeIndex()"
+Sep 10 20:36:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 10 20:36:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.category_id AS c__category_id, c.type AS c__type, c.name AS c__name, c.logo AS c__logo, c.url AS c__url, c.street AS c__street, c.zip AS c__zip, c.city AS c__city, c.description AS c__description, c.token AS c__token, c.is_public AS c__is_public, c.is_activated AS c__is_activated, c.email AS c__email, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM customer c WHERE (is_activeted = ?) ORDER BY c.updated_at ASC - (1)
+Sep 10 20:36:36 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_activeted' in 'where clause'
+Sep 10 20:36:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 10 20:36:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 10 20:36:36 symfony [info] {sfWebDebugLogger} Configuration 12.91 ms (9)
+Sep 10 20:36:36 symfony [info] {sfWebDebugLogger} Factories 39.31 ms (1)
+Sep 10 20:36:36 symfony [info] {sfWebDebugLogger} Action "customer/index" 89.90 ms (1)
+Sep 10 20:36:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.42 ms (1)
+Sep 10 20:37:34 symfony [info] {sfPatternRouting} Match route "customer" (/customer) for /customer with parameters array (  'module' => 'customer',  'action' => 'index',)
+Sep 10 20:37:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 10 20:37:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 10 20:37:34 symfony [info] {customerActions} Call "customerActions->executeIndex()"
+Sep 10 20:37:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 10 20:37:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.category_id AS c__category_id, c.type AS c__type, c.name AS c__name, c.logo AS c__logo, c.url AS c__url, c.street AS c__street, c.zip AS c__zip, c.city AS c__city, c.description AS c__description, c.token AS c__token, c.is_public AS c__is_public, c.is_activated AS c__is_activated, c.email AS c__email, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM customer c WHERE (c.is_activated = ?) ORDER BY c.updated_at ASC - (1)
+Sep 10 20:37:34 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/customer/templates/indexSuccess.php"
+Sep 10 20:37:34 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:37:34 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:37:34 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 10 20:37:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 10 20:37:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 10 20:37:34 symfony [info] {sfWebDebugLogger} Configuration 7.84 ms (10)
+Sep 10 20:37:34 symfony [info] {sfWebDebugLogger} Factories 19.86 ms (1)
+Sep 10 20:37:34 symfony [info] {sfWebDebugLogger} Action "customer/index" 30.83 ms (1)
+Sep 10 20:37:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.76 ms (2)
+Sep 10 20:37:34 symfony [info] {sfWebDebugLogger} View "Success" for "customer/index" 16.77 ms (1)
+Sep 10 20:37:34 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.55 ms (1)
+Sep 10 20:37:34 symfony [info] {sfWebResponse} Send content (38878 o)
+Sep 10 20:40:46 symfony [info] {sfPatternRouting} Match route "customer" (/customer) for /customer with parameters array (  'module' => 'customer',  'action' => 'index',)
+Sep 10 20:40:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 10 20:40:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 10 20:40:46 symfony [info] {customerActions} Call "customerActions->executeIndex()"
+Sep 10 20:40:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 10 20:40:46 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.category_id AS c__category_id, c.type AS c__type, c.name AS c__name, c.logo AS c__logo, c.url AS c__url, c.street AS c__street, c.zip AS c__zip, c.city AS c__city, c.description AS c__description, c.token AS c__token, c.is_public AS c__is_public, c.is_activated AS c__is_activated, c.email AS c__email, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM customer c WHERE (c.is_activated = ?) ORDER BY c.updated_at ASC - (1)
+Sep 10 20:40:46 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/customer/templates/indexSuccess.php"
+Sep 10 20:40:46 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:40:46 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:40:46 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 10 20:40:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 10 20:40:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 10 20:40:46 symfony [info] {sfWebDebugLogger} Configuration 1.20 ms (9)
+Sep 10 20:40:46 symfony [info] {sfWebDebugLogger} Factories 24.67 ms (1)
+Sep 10 20:40:46 symfony [info] {sfWebDebugLogger} Action "customer/index" 32.71 ms (1)
+Sep 10 20:40:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.86 ms (2)
+Sep 10 20:40:46 symfony [info] {sfWebDebugLogger} View "Success" for "customer/index" 13.89 ms (1)
+Sep 10 20:40:46 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.75 ms (1)
+Sep 10 20:40:46 symfony [info] {sfWebResponse} Send content (38884 o)
+Sep 10 20:40:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Sep 10 20:40:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 10 20:40:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 10 20:40:50 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Sep 10 20:40:50 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/home/templates/indexSuccess.php"
+Sep 10 20:40:50 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:40:50 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:40:50 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 10 20:40:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 10 20:40:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 10 20:40:50 symfony [info] {sfWebDebugLogger} Configuration 2.86 ms (9)
+Sep 10 20:40:50 symfony [info] {sfWebDebugLogger} Factories 46.13 ms (1)
+Sep 10 20:40:50 symfony [info] {sfWebDebugLogger} Action "home/index" 0.22 ms (1)
+Sep 10 20:40:50 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 14.69 ms (1)
+Sep 10 20:40:50 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.86 ms (1)
+Sep 10 20:40:50 symfony [info] {sfWebResponse} Send content (33818 o)
+Sep 10 20:48:33 symfony [info] {sfPatternRouting} Match route "customer" (/customer) for /customer with parameters array (  'module' => 'customer',  'action' => 'index',)
+Sep 10 20:48:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 10 20:48:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 10 20:48:33 symfony [info] {customerActions} Call "customerActions->executeIndex()"
+Sep 10 20:48:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 10 20:48:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.category_id AS c__category_id, c.type AS c__type, c.name AS c__name, c.logo AS c__logo, c.url AS c__url, c.street AS c__street, c.zip AS c__zip, c.city AS c__city, c.description AS c__description, c.token AS c__token, c.is_public AS c__is_public, c.is_activated AS c__is_activated, c.email AS c__email, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM customer c WHERE (c.is_activated = ?) ORDER BY c.updated_at ASC - (1)
+Sep 10 20:48:33 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/customer/templates/indexSuccess.php"
+Sep 10 20:48:33 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:48:33 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:48:33 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 10 20:48:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 10 20:48:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 10 20:48:33 symfony [info] {sfWebDebugLogger} Configuration 0.77 ms (9)
+Sep 10 20:48:33 symfony [info] {sfWebDebugLogger} Factories 17.09 ms (1)
+Sep 10 20:48:33 symfony [info] {sfWebDebugLogger} Action "customer/index" 23.86 ms (1)
+Sep 10 20:48:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.72 ms (2)
+Sep 10 20:48:33 symfony [info] {sfWebDebugLogger} View "Success" for "customer/index" 8.87 ms (1)
+Sep 10 20:48:33 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.49 ms (1)
+Sep 10 20:48:33 symfony [info] {sfWebResponse} Send content (38851 o)
+Sep 10 20:50:09 symfony [info] {sfPatternRouting} Match route "customer" (/customer) for /customer with parameters array (  'module' => 'customer',  'action' => 'index',)
+Sep 10 20:50:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 10 20:50:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 10 20:50:09 symfony [info] {customerActions} Call "customerActions->executeIndex()"
+Sep 10 20:50:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 10 20:50:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.category_id AS c__category_id, c.type AS c__type, c.name AS c__name, c.logo AS c__logo, c.url AS c__url, c.street AS c__street, c.zip AS c__zip, c.city AS c__city, c.description AS c__description, c.token AS c__token, c.is_public AS c__is_public, c.is_activated AS c__is_activated, c.email AS c__email, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM customer c WHERE (c.is_activated = ?) ORDER BY c.updated_at ASC - (1)
+Sep 10 20:50:09 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/customer/templates/indexSuccess.php"
+Sep 10 20:50:09 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:50:09 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:50:09 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 10 20:50:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 10 20:50:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 10 20:50:09 symfony [info] {sfWebDebugLogger} Configuration 0.91 ms (9)
+Sep 10 20:50:09 symfony [info] {sfWebDebugLogger} Factories 20.59 ms (1)
+Sep 10 20:50:09 symfony [info] {sfWebDebugLogger} Action "customer/index" 24.76 ms (1)
+Sep 10 20:50:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.58 ms (2)
+Sep 10 20:50:09 symfony [info] {sfWebDebugLogger} View "Success" for "customer/index" 8.84 ms (1)
+Sep 10 20:50:09 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.61 ms (1)
+Sep 10 20:50:09 symfony [info] {sfWebResponse} Send content (38891 o)
+Sep 10 20:55:59 symfony [info] {sfPatternRouting} Match route "customer" (/customer) for /customer with parameters array (  'module' => 'customer',  'action' => 'index',)
+Sep 10 20:55:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 10 20:55:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 10 20:55:59 symfony [info] {customerActions} Call "customerActions->executeIndex()"
+Sep 10 20:56:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 10 20:56:00 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.category_id AS c__category_id, c.type AS c__type, c.name AS c__name, c.logo AS c__logo, c.url AS c__url, c.street AS c__street, c.zip AS c__zip, c.city AS c__city, c.description AS c__description, c.token AS c__token, c.is_public AS c__is_public, c.is_activated AS c__is_activated, c.email AS c__email, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM customer c WHERE (c.is_activated = ?) ORDER BY c.updated_at ASC - (1)
+Sep 10 20:56:00 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/modules/customer/templates/indexSuccess.php"
+Sep 10 20:56:00 symfony [info] {sfPHPView} Decorate content with "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:56:00 symfony [info] {sfPHPView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/layout.php"
+Sep 10 20:56:00 symfony [info] {sfPartialView} Render "/Users/Manuel/Projects/board/apps/frontend/templates/_header.php"
+Sep 10 20:56:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 10 20:56:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 10 20:56:00 symfony [info] {sfWebDebugLogger} Configuration 1.28 ms (9)
+Sep 10 20:56:00 symfony [info] {sfWebDebugLogger} Factories 23.72 ms (1)
+Sep 10 20:56:00 symfony [info] {sfWebDebugLogger} Action "customer/index" 23.69 ms (1)
+Sep 10 20:56:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.55 ms (2)
+Sep 10 20:56:00 symfony [info] {sfWebDebugLogger} View "Success" for "customer/index" 9.66 ms (1)
+Sep 10 20:56:00 symfony [info] {sfWebDebugLogger} Partial "global/_header" 0.58 ms (1)
+Sep 10 20:56:00 symfony [info] {sfWebResponse} Send content (39482 o)

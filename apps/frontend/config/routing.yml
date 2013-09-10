@@ -9,6 +9,10 @@ homepage:
 contact:
   url:   /contact
   param: { module: contact, action: index }
+  
+customer:
+  url:   /customer
+  param: { module: customer, action: index }
 
 # generic rules
 # please, remove them by adding more specific rules
