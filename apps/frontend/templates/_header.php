@@ -1,37 +1,61 @@
-<!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Nivo-Media</a>
+            </a>
+            <a class="brand" href="#" name="top">Brand Name</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li><a href="#"><i class="icon-home"></i> Home</a></li>
+                    <li class="divider-vertical"></li>
+                    <li class="active"><a href="#"><i class="icon-file"></i> Pages</a></li>
+                    <li class="divider-vertical"></li>
+                    <li><a href="#"><i class="icon-envelope"></i> Messages</a></li>
+                    <li class="divider-vertical"></li>
+                    <li><a href="#"><i class="icon-signal"></i> Stats</a></li>
+                    <li class="divider-vertical"></li>
+                    <li><a href="#"><i class="icon-lock"></i> Permissions</a></li>
+                    <li class="divider-vertical"></li>
+                    <li><a href="<?php echo url_for('contact')?>"><i class="icon-user"></i> Contact</a></li>
+                    <li class="divider-vertical"></li>
+                </ul>
+                <ul class="nav pull-right">
+                    <li><a href="/signup">Sign Up</a></li>
+                    <li class="divider-vertical"></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In <strong class="caret"></strong></a>
+                        <div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
+                            <form method="post" action="login" accept-charset="UTF-8">
+                                <input style="margin-bottom: 15px;" type="text" placeholder="Username" id="username" name="username">
+                                <input style="margin-bottom: 15px;" type="password" placeholder="Password" id="password" name="password">
+                                <input style="float: left; margin-right: 10px;" type="checkbox" name="remember-me" id="remember-me" value="1">
+                                <label class="string optional" for="user_remember_me"> Remember me</label>
+                                <input class="btn btn-primary btn-block" type="submit" id="sign-in" value="Sign In">
+                                <label style="text-align:center;margin-top:5px">or</label>
+                                <input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Sign In with Google">
+                                <input class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Sign In with Twitter">
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
         </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="<?php echo url_for('homepage') ?>">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="<?php echo url_for('contact') ?>">Contact</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Nav header</li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="../navbar/">Default</a></li>
-                <li><a href="../navbar-static-top/">Static top</a></li>
-                <li class="active"><a href="./">Fixed top</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
+        <!--/.container-fluid -->
     </div>
+    <!--/.navbar-inner -->
 </div>
+<!--/.navbar -->
+
+<script>
+    $(document).ready(function()
+    {
+        //Handles menu drop down
+        $('.dropdown-menu').find('form').click(function (e) {
+            e.stopPropagation();
+        });
+    });
+</script>

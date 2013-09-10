@@ -1,8 +1,8 @@
 <div class="row">
-    <div class="col-lg-2">
+    <div class="span2">
         <img src="http://placehold.it/170x220" alt="" class="img-rounded">
     </div>
-    <div class="col-lg-4">
+    <div class="span4">
         <blockquote>
             <p>Michaela Wagner</p>
             <small><cite title="Source Title">Essen, Germany <i class="icon-map-marker"></i></cite></small>
@@ -14,12 +14,12 @@
         </p>
     </div>
 
-    <div class="col-lg-2">
+    <div class="span2">
         <img src="http://placehold.it/170x220" alt="" class="img-rounded">
     </div>
-    <div class="col-lg-4">
+    <div class="span4">
         <blockquote>
-            <p>Bruce Wayne</p>
+            <p>Manuel Rujano Oliva</p>
             <small><cite title="Source Title">Essen, Germany <i class="icon-map-marker"></i></cite></small>
         </blockquote>
         <p>

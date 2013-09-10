@@ -12,9 +12,18 @@ default:
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [main.css]
+  stylesheets:
+   - "http://fonts.googleapis.com/css?family=Source+Sans+Pro"
+   - "http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"
+   - bootstrap/flatstrap.css
+   - bootstrap/flatstrap-responsive.css
+   - bootstrap/flatstrap-docs.css
+   - main.css
 
-  javascripts:    []
+  javascripts:
+   - "http://code.jquery.com/jquery.js"
+   - bootstrap.js
+   - main.js
 
   has_layout:     true
   layout:         layout

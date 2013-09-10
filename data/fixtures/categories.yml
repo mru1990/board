@@ -1,0 +1,9 @@
+CustomerCategory:
+  design:
+    name: Design
+  mode:
+    name: Mode
+  cars:
+    name: Cars
+  media:
+    name: Media
